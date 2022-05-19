@@ -36,6 +36,11 @@ spec:
         externalIPs:
           - "${METALLB_QBITTORRENT_ADDR}"
         ports:
+          web:
+            enabled: true
+            port: 8080
+            protocol: TCP
+            targetPort: 8080
           bittorrent:
             enabled: true
             port: 16880
