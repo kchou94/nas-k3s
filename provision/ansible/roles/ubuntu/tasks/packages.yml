@@ -12,7 +12,6 @@
       - ebtables
       - ca-certificates
       - curl
-      - ebtables
       - gdisk
       - hdparm
       - htop
