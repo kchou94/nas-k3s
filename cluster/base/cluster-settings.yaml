@@ -5,6 +5,9 @@ metadata:
   name: cluster-settings
   namespace: flux-system
 data:
+  TIMEZONE: "Asia/Shanghai"
   METALLB_LB_RANGE: 192.168.50.10-192.168.50.20
   METALLB_K8S_GATEWAY_ADDR: 192.168.50.10
   METALLB_TRAEFIK_ADDR: 192.168.50.11
+  METALLB_QBITTORRENT_ADDR: 192.168.50.12
+  NAS_ADDR: 192.168.50.4
