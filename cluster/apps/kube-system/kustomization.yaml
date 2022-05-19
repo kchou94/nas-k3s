@@ -5,4 +5,4 @@ resources:
   - metrics-server
   - reflector
   - reloader
-  # - nfs-subdir-external-provisioner
+  - nfs-subdir-external-provisioner
