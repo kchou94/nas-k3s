@@ -9,3 +9,4 @@ parameters:
   fstype: "zfs"
   poolname: "data"
 provisioner: zfs.csi.openebs.io
+volumeBindingMode: WaitForFirstConsumer
