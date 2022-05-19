@@ -77,7 +77,7 @@ spec:
       media:
         enabled: true
         type: nfs
-        server: "{NAS_ADDR}"
+        server: "${NAS_ADDR}"
         path: /data/media
         mountPath: /media
     resources:

@@ -20,7 +20,7 @@ spec:
   values:
     replicaCount: 1
     nfs:
-      server: "192.168.50.4"
+      server: "${NAS_ADDR}"
       path: /data/pvc
       mountOptions:
         # - nfsvers=4.2
