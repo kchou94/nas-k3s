@@ -88,6 +88,20 @@ spec:
         server: "${NAS_ADDR}"
         path: /data/media
         mountPath: /media
+      tv:
+        enabled: true
+        type: nfs
+        server: "${NAS_ADDR}"
+        path: /data/tv
+        mountPath: /tv
+        readOnly: true
+      download:
+        enabled: true
+        type: nfs
+        server: "${NAS_ADDR}"
+        path: /data/download
+        mountPath: /download
+        readOnly: true
       # media:
       #   enabled: true
       #   type: custom

@@ -70,6 +70,20 @@ spec:
         path: /data/media
         mountPath: /media
         readOnly: true
+      tv:
+        enabled: true
+        type: nfs
+        server: "${NAS_ADDR}"
+        path: /data/tv
+        mountPath: /tv
+        readOnly: true
+      download:
+        enabled: true
+        type: nfs
+        server: "${NAS_ADDR}"
+        path: /data/download
+        mountPath: /download
+        readOnly: true
       # transcode:
       #   enabled: true
       #   type: emptyDir
